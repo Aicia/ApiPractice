@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>API Practice</h1>
+
+<hr />
+
+<div id="PostApiDiv">
+    <h3>Post Api call</h3>
+    <label>UserId</label><br />
+    <input type="text" id="newUserId"><br /><br />
+    <label>First Name</label><br />
+    <input type="text" id="newFname"><br /><br />
+    <label>Last Name</label><br />
+    <input type="text" id="newLname"><br /><br />
+    <label>Age</label><br />
+    <input type="text" id="newAge"><br /><br />
+    <input type="submit" id="postButton"><br /><br />
+</div>
+
+<hr />
+
+<div id="DeleteApiDiv">
+    <h3>Delete Api call</h3>
+    <label>UserId</label><br />
+    <input type="text" id="delUserId"><br /><br />
+    <input type="submit" id="deleteButton"><br /><br />
+</div>
+
+<hr />
+
+<div id="GetApiDiv">
+
+    <h3>Get Api call</h3>
+    <p>This section is used to get information from the local database. Leave this field blank to return all accounts from database</p>
+
+    <div id="GetApiInformation">
+        <label>UserId</label><br />
+        <input type="text" id="getAccount"><br /><br />
+        <button id="getButton">Get Accounts</button><br /><br />
+    </div>
+
+    <div id="AccountList">
+        <table id="accountTable" style="width:50%">
+            <tr>
+                <th>UserId</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<hr />
+
+<script src="~/js/home.js"></script>
+
+
+

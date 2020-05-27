@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "appConnectionString":  "server=(localdb)\\ProjectsV13;Database=ApiAppDb;Integrated Security =true;MultipleActiveResultSets=true;"
+  }
+}
